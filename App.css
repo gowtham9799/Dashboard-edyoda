@@ -1,0 +1,262 @@
+
+nav.navbar.navbar.navbar-expand-lg.navbar-light {
+  background-color: #567086 !important;
+}
+.nav-col{
+  color: #fff;
+  text-decoration: none !important;
+
+}
+.nav-col1:hover{
+  .nav-col{
+    color: #f5a623 !important;
+  }
+
+}
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar-nav > .active > a { 
+  .nav-col1{
+    background-color: red ; 
+  }
+  
+}
+.lin{
+  text-decoration: none !important;
+}
+
+.status-moving {
+  background-color: green;
+}
+
+.status-cancelled {
+  background-color: red;
+}
+
+.status-pending {
+  background-color: yellow;
+}
+
+/* Add more status classes as needed */
+
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px; /* Set a maximum height for the scrollable container */
+  overflow: auto; /* Enable vertical scrolling when content exceeds the maximum height */
+}
+
+.scrollable-container {
+  overflow-y: auto; /* Enable vertical scrolling for this container */
+}
+
+.notification-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.user-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.notification-content {
+  flex-grow: 1;
+}
+
+.notification-message {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.notification-time {
+  color: #777;
+}
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+tr.selected {
+  background-color: #f0f0f0;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+button {
+  color: #fff;
+  background-color: #f5a623;
+  border: 2px solid #f5a623;
+  font-size: 90%;
+  font-weight: 600;
+}
+.but1{
+width: 38%;
+margin-top: 2rem;
+height: 50px;
+margin-left: 4rem;
+
+}
+.but2{
+  width: 40%;
+  margin-top: 2rem;
+  height: 50px;
+  
+  }
+  div {
+    margin-bottom: 0px;
+}
+.log{
+  min-height: 1px;
+  max-height: none;
+  height:470px;
+  background-color: #435c70;
+  width: 30%;
+  margin-left: 32rem;
+  margin-top: 5rem;
+}
+.col-12.font-weight-light {
+  padding: 0px !important;
+}
+p.text-center.text-white.small {
+  width: 100%;
+  display: inline-block;
+}
+footer.tm-footer.row.tm-mt-small {
+  margin: 0px !important;
+}
+.lisacc{
+  min-height: 1px;
+  max-height: none;
+  height:230px;
+  background-color: #435c70;
+  width: 80%;
+  margin-left: 10rem;
+position: relative;
+top: 50px;
+}
+.lisaccp1{
+  font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 4rem;
+    padding-top: 3rem;
+}
+.lisaccp2{
+  color: #fff;
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+.select1{
+  width: 90%;
+    border: none;
+    color: #acc6de;
+    height: 50px;
+    margin-left: 4rem;
+    margin-top: 0px;
+    background-color:#4e657a;
+}
+.lisacc3{
+  min-height: 1px;
+  max-height: none;
+  height:370px;
+  background-color: #435c70;
+  width: 30%;
+  margin-left: 10rem;
+margin-top: 6rem;
+}
+.img {
+  width: 30%;
+  height: 350px;
+}
+label {
+  display: none;
+}
+.lisacc4{
+  min-height: 1px;
+  max-height: none;
+  height:370px;
+  background-color: #435c70;
+  width: 46.5%;
+  margin-left:3rem;
+margin-top: 6rem;
+}
+.tm-block-title{
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+.padd{
+  padding-left: 3rem;
+  padding-bottom: 10px;
+ 
+}
+.padd1{
+  padding-left: 3rem;
+  padding-bottom: 10px;
+  padding-top: 20px;
+ 
+}
+.marg{
+  margin-left: 3rem;
+  width:270px;
+}
+.marg1{
+  margin-left: 3rem;
+  width:270px;
+  margin-top: 30px;
+}
+.marg2{
+  margin-left: 60px;
+  width:270px;
+  margin-top: 30px;
+}
